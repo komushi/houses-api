@@ -4,7 +4,7 @@ var mongodbManager = require('../utils/mongodbManager');
 
 
 /*************************************/
-/* REST API controller getCategories */
+/* REST API controller getTranslationsData */
 exports.getTranslationsData = function (req, res) {
   console.log("Begin: getTranslationsData");
   console.log("Before getting translations data: " + (new Date()).toISOString());
@@ -55,6 +55,6 @@ var getTranslationsDataPromise = function(assetId, viewType, viewName, localeCod
 
   return d.promise;
 };
-/* REST API controller getCategories */
+/* REST API controller getTranslationsData */
 /*************************************/
 

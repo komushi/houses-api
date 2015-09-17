@@ -1,8 +1,6 @@
 var Q = require("q");
 var mongodbManager = require('../utils/mongodbManager');
 
-
-
 /*************************************/
 /* REST API controller getMenuData */
 exports.getMenuData = function (req, res) {
