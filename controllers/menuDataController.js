@@ -8,11 +8,10 @@ exports.getMenuData = function (req, res) {
   console.log("Before getting menu data: " + (new Date()).toISOString());
 
   var assetId = req.params.assetId;
-  var menuType = req.params.menuType;
 
   // var db = mongodbManager.getConnection(["category"]);
 
-  getMenuDataPromise(assetId, menuType)
+  getMenuDataPromise(assetId)
     .then(function(menuData) {
       console.log("After getting menuData: " + (new Date()).toISOString());
       console.log("menuData:");
@@ -32,13 +31,13 @@ exports.getMenuData = function (req, res) {
     });
 };
 
-var getMenuDataPromise = function(assetId, menuType) {
+var getMenuDataPromise = function(assetId) {
   var dummy_data;
 
   var d = Q.defer();
 
   try {
-    dummy_data = require('../dummy_data/menu/' + assetId + '_' + menuType + '.js');
+    dummy_data = require('../dummy_data/menu/' + assetId + '_menu.js');
   } catch (ex) {
     dummy_data = {};
   }

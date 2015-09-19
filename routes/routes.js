@@ -48,7 +48,7 @@ router.route('/api/user/:userName')
 
 /**************************/
 /* REST API /api/menu/:assetId/:menuType */
-router.route('/api/menu/:assetId/:menuType')
+router.route('/api/menu/:assetId')
   .get(function (req, res) {
     menuDataController.getMenuData(req, res);
 });
