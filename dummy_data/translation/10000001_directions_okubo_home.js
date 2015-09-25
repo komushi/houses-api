@@ -15,7 +15,7 @@ module.exports =
     "PANELTITLE": "步行导向",
     "GUIDE": "mini store是关键路标，大约总共走几分钟。"
   },
-  "zh-TW": {
+  "zh-HK": {
     "MENU": "菜單",
     "DIRECTIONS": "導航",
     "PAGETITLE": "從JR中央線新大久保車站步行到家",

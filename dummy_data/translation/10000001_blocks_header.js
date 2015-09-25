@@ -8,7 +8,7 @@ module.exports =
     "Type anywhere to search": "任意输入进行搜索",
     "LANGUAGE": "选择语言"
   },
-  "zh-TW": {
+  "zh-HK": {
     "Type anywhere to search": "任意輸入進行搜索",
     "LANGUAGE": "選擇語言"
   }

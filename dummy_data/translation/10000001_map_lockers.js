@@ -40,7 +40,7 @@ module.exports =
     "DESC6": "CHS JR新大久保駅より徒歩約2分、JR大久保駅北口より徒歩約3分 大久保通り沿いビジネスホテルの側面、小    ￥100    20個、中   ￥200    6個",
     "DESC7": "CHS JR大久保駅南口方面改札付近"
   },
-  "zh-TW": {
+  "zh-HK": {
     "MENU": "Menu",
     "PAGETITLE": "Locker",
     "DIRECTIONS": "導航",

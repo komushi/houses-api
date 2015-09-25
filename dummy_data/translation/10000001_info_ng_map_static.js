@@ -8,7 +8,7 @@ module.exports =
     "Simple Map": "简单地图",
     "AAA": "从新大久保"
   },
-  "zh-TW": {
+  "zh-HK": {
     "Simple Map": "簡單地圖",
     "AAA": "從新大久保"
   }

@@ -30,7 +30,7 @@ module.exports =
     "From Okubo": "从大久保",
     "From Higashishinjuku": "从东新宿"
   },
-  "zh-TW": {
+  "zh-HK": {
     "Home": "首頁",
     "NG Map Static": "簡單地圖",
     "Directions": "導航",

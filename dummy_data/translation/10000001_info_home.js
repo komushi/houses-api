@@ -18,7 +18,7 @@ module.exports =
     "SLIDE2": "2号",
     "SLIDE3": "3号"
   },
-  "zh-TW": {
+  "zh-HK": {
     "MENU": "菜單",
     "PAGETITLE": "首頁",
     "GREETING": "您好，歡迎來到Okubo House!!!",
