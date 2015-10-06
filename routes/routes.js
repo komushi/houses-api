@@ -4,6 +4,7 @@ var viewDataController = require("../controllers/viewDataController");
 var translationsDataController = require("../controllers/translationsDataController");
 var userDataController = require("../controllers/userDataController");
 var menuDataController = require("../controllers/menuDataController");
+var servicesMenuDataController = require("../controllers/servicesMenuDataController");
 
 
 //configure routes
@@ -51,6 +52,15 @@ router.route('/api/user/:userName')
 router.route('/api/menu/:assetId')
   .get(function (req, res) {
     menuDataController.getMenuData(req, res);
+});
+/* REST API /api/menu/:assetId/:menuType */
+/**************************/
+
+/**************************/
+/* REST API /api/menu/:assetId/:menuType */
+router.route('/api/services_menu/:userId')
+  .get(function (req, res) {
+    servicesMenuDataController.getMenuData(req, res);
 });
 /* REST API /api/menu/:assetId/:menuType */
 /**************************/
