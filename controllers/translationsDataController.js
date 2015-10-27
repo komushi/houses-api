@@ -44,7 +44,7 @@ var getTranslationsDataPromise = function(assetId, viewType, viewName, localeCod
 
   try {
 
-    dummy_data = require('../dummy_data/translation/' + assetId + '_' + viewType + '_' + viewName + '.js');
+    dummy_data = require('../dummy_data/' + assetId + '/translation/' + assetId + '_' + viewType + '_' + viewName + '.js');
     result = dummy_data[localeCode];
 
   } catch (ex) {

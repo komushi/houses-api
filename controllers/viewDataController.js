@@ -41,7 +41,7 @@ var getViewDataPromise = function(assetId, viewType, viewName) {
   var d = Q.defer();
 
   try {
-    dummy_data = require('../dummy_data/view_data/' + assetId + '_' + viewType + '_' + viewName + '.js');
+    dummy_data = require('../dummy_data/' + assetId + '/view_data/' + assetId + '_' + viewType + '_' + viewName + '.js');
   } catch (ex) {
     dummy_data = {};
   }

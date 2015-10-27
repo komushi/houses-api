@@ -37,7 +37,7 @@ var getMenuDataPromise = function(assetId) {
   var d = Q.defer();
 
   try {
-    dummy_data = require('../dummy_data/menu/' + assetId + '_menu.js');
+    dummy_data = require('../dummy_data/' + assetId + '/menu/' + assetId + '_menu.js');
   } catch (ex) {
     dummy_data = {};
   }
