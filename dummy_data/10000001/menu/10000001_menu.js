@@ -37,11 +37,10 @@ module.exports =
     "interior": [
       {
         "assetId": "10000001",
-        "viewName": "bedrooms",
-        "viewType": "info",
         "translationId": "Bedrooms",
-        "translations": [],
-        "icon": "fa fa-bed"
+        "icon": "fa fa-bed",
+        "hasSub": true,
+        "submenu": "bedrooms"
       },
       {
         "assetId": "10000001",
@@ -92,7 +91,7 @@ module.exports =
         "translationId": "From Shinokubo",
         "translations": [],
         "icon": "fa fa-map-signs",
-        "styles": "light"
+        "styles": "greyScale"
       },
       {
         "assetId": "10000001",
@@ -114,12 +113,47 @@ module.exports =
       },
       {
         "assetId": "10000001",
+        "viewName": "shinjuku_west_home",
+        "viewType": "directions",
+        "translationId": "From Shinjuku Station West Exit",
+        "translations": [],
+        "icon": "fa fa-map-signs",
+        "styles": "greyScale"
+      },
+      {
+        "assetId": "10000001",
         "viewName": "lockers",
         "viewType": "map",
         "translationId": "LOCKERS",
         "translations": [],
         "icon": "fa fa-lock",
         "styles": "greyScale"
+      }
+    ],
+    "bedrooms": [
+      {
+        "assetId": "10000001",
+        "viewName": "bedroom1",
+        "viewType": "info2",
+        "translationId": "Bedroom1",
+        "translations": [],
+        "icon": "fa fa-bed"
+      },
+      {
+        "assetId": "10000001",
+        "viewName": "bedroom2",
+        "viewType": "info2",
+        "translationId": "Bedroom2",
+        "translations": [],
+        "icon": "fa fa-bed"
+      },
+      {
+        "assetId": "10000001",
+        "viewName": "bedroom3",
+        "viewType": "info",
+        "translationId": "Bedroom3",
+        "translations": [],
+        "icon": "fa fa-bed"
       }
     ]
   }

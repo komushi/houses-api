@@ -17,7 +17,7 @@ module.exports =
   "slides": [
     {
       "translationId": "SLIDE1",
-      "imageUrl": "assets/img/bedrooms/1.jpg",
+      "imageUrl": "assets/img/bedrooms/bedroom1_01.jpg",
       "desc": {
         "translationId": "DESC1",
         "translations": [
@@ -30,15 +30,14 @@ module.exports =
     },
     {
       "translationId": "SLIDE2",
-      "imageUrl": "assets/img/bedrooms/2.jpg",
+      "imageUrl": "assets/img/bedrooms/bedroom1_02.jpg",
       "desc": {
         "translationId": "DESC2",
-        "imageUrl": "assets/img/bedrooms/2.jpg"
       }
     },
     {
       "translationId": "SLIDE3",
-      "imageUrl": "assets/img/bedrooms/3.jpg",
+      "imageUrl": "assets/img/bedrooms/bedroom1_03.jpg",
       "desc": {
         "translationId": "DESC3"
       }

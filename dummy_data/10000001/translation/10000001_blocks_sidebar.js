@@ -13,7 +13,8 @@ module.exports =
     "Internet": "Internet",
     "From Shinokubo": "From Shinokubo",
     "From Okubo": "From Okubo",
-    "From Higashishinjuku": "From Higashishinjuku"
+    "From Higashishinjuku": "From Higashishinjuku",
+    "From Shinjuku Station West Exit": "From Shinjuku Station West Exit"
   },
   "zh-CN": {
     "Home": "首页",
@@ -28,7 +29,8 @@ module.exports =
     "Internet": "宽带网络",
     "From Shinokubo": "从新大久保",
     "From Okubo": "从大久保",
-    "From Higashishinjuku": "从东新宿"
+    "From Higashishinjuku": "从东新宿",
+    "From Shinjuku Station West Exit": "从新宿站西口"
   },
   "zh-HK": {
     "Home": "首頁",
@@ -43,6 +45,7 @@ module.exports =
     "Internet": "高速網路",
     "From Shinokubo": "從新大久保",
     "From Okubo": "從大久保",
-    "From Higashishinjuku": "從東新宿"
+    "From Higashishinjuku": "從東新宿",
+    "From Shinjuku Station West Exit": "從新宿車站西口"
   }
 };
