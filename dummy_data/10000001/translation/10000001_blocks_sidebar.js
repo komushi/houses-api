@@ -11,9 +11,9 @@ module.exports =
     "Key": "Key",
     "Trash": "Trash",
     "Internet": "Internet",
-    "From Shinokubo": "From Shinokubo",
+    "From Shinokubo": "From Shin Okubo",
     "From Okubo": "From Okubo",
-    "From Higashishinjuku": "From Higashishinjuku",
+    "From Higashishinjuku": "From Higashi Shinjuku",
     "From Shinjuku Station West Exit": "From Shinjuku Station West Exit"
   },
   "zh-CN": {
