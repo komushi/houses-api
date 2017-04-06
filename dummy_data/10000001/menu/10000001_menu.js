@@ -128,6 +128,33 @@ module.exports =
         "translations": [],
         "icon": "fa fa-lock",
         "styles": "greyScale"
+      },
+      {
+        "assetId": "10000001",
+        "viewName": "ningyocho_home",
+        "viewType": "directions",
+        "translationId": "From Ningyocho Station",
+        "translations": [],
+        "icon": "fa fa-map-signs",
+        "styles": "greyScale"
+      },
+      {
+        "assetId": "10000001",
+        "viewName": "bakurocho_home",
+        "viewType": "directions",
+        "translationId": "From Bakurocho Station",
+        "translations": [],
+        "icon": "fa fa-map-signs",
+        "styles": "greyScale"
+      },
+      {
+        "assetId": "10000001",
+        "viewName": "mandarin_oriental_home",
+        "viewType": "directions",
+        "translationId": "From Mandarin Oriental Hotel",
+        "translations": [],
+        "icon": "fa fa-map-signs",
+        "styles": "greyScale"
       }
     ],
     "bedrooms": [
